@@ -1,0 +1,18 @@
+EX:4
+True:
+void main() {
+  
+  bool tesDeAnd = (true && false);
+  bool complexo = (25 < 200) && (100 > 50 );
+  
+  print (complexo);
+}
+False:
+void main() {
+  
+  bool tesDeAnd = (true && false);
+  bool complexo = (25 > 200) && (100 < 50 );
+  
+  print (complexo);
+}
+-----------------------------------------------------------

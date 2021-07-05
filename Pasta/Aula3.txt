@@ -1,0 +1,102 @@
+
+ 
+
+Exercício 1
+
+void main() {
+  String nome_usuario = "Silvio";
+  String sobrenome_usuario = "Santos";
+  String idade_usuario = "86 anos";
+  String endereco_usuario = "Av.17 de abril, 148";
+  
+  
+  print("Nome: $nome_usuario\n"
+        "Sobrenome: $sobrenome_usuario\n"
+        "Endereco: $endereco_usuario\n"
+        "Idade: $idade_usuario");
+}
+
+----------------------------------------------------------------------
+
+Exercício 2
+
+void main() {
+  double entrada = 6;
+  double pessoas = 4; 
+  
+  String operador = "*";
+  switch (operador)
+  {
+    case "*" :
+      print(entrada * pessoas);
+  }  
+}
+
+---------------------------------------------------------------------------------
+
+Exercício 3
+void main() {
+ 
+  double base_maior = 8;
+  double base_menor = 3;
+  double altura = 5;
+  double dividir = 2;
+  double resultado_soma = 11;
+  double resultado_divisao = 5.5;
+  
+  
+  double soma = base_menor + base_maior;
+  double div = resultado_soma / dividir;
+  double multi = resultado_divisao * altura;
+  
+  
+  print("A soma entre base menor e maior é: $soma\n"
+        "Resultado da soma dividido por 2 é: $div\n"
+        "E a área do trapézio é: $multi cm²");
+       }
+   
+
+---------------------------------------------------------------------------------
+Exercício 4 
+
+void main() {
+ 
+  double altura = 17;
+  double base = 17;
+  
+  double multi = altura * base;
+  print("A multiplicação entre base * altura é, área: $multi cm²");
+
+}
+
+
+
+
+--------------------------------------------------------------------------
+
+Exercício 5
+
+void main() {
+Exemplo1
+String nome = "Katarina";
+  
+  if (nome == "Katarina") {
+    print (" É a mesma pessoa");
+      }else{
+    print ("Os nomes não conferem");
+  }
+     
+}
+Exemplo 2  
+String nome = "Katarina";
+  
+  if (nome == "Bia") {
+    print (" É a mesma pessoa");
+      }else{
+    print ("Os nomes não conferem");
+  }
+    
+}
+
+
+  
