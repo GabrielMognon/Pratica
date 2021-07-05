@@ -1,0 +1,13 @@
+Ex1: 
+R:Duo While.
+----------------------------------------------------------------------------
+Ex2: OBS: Não conseguir fazer retornar o maior deles.
+
+void main() {
+  
+  const List indices = [1,2,3,4,5,6,7,8,9 ,10];     
+    for (int num in indices) {
+      print(num);                
+    }
+}
+----------------------------------------------------------------------------
